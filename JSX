@@ -1,0 +1,110 @@
+import "./navtwo.css"
+
+function Navbartwo(){
+
+return(
+    <>
+    <div className="top"></div>
+
+
+
+    <div className="main">
+
+    <div className="nav">
+        <div className="logo">
+            
+            <h3>ErenXgamez</h3>
+        <div className="img-for-sub-footer">
+        <img src="./images/dragon logo.png" alt="" />
+
+       </div>
+        </div>
+    
+    
+    <div className="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Report</a></li>
+             </ul>
+    </div>
+    </div>
+
+    <div className="pic">
+    
+    </div>
+
+    <div className="cards">
+
+            <div className="card-one">
+          <h1>Welcome</h1>
+          <p>Lorem ipsum dolor sit ame mollitia minus sunt debitiisicing elit. Laboriosam voluptates exercitationem soluta! Blanditiis, dolores dolor. Tempora inventore laboriosam non velit provident, neque delectus iure eligendi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate odio impedit rerum voluptatum quas recusandae alias atque corrupti quisquam itaque!</p>
+           <button>Read More</button>
+           
+            </div>
+    <div className="card-two">   <h1>Welcome !</h1>
+          <p>Lorem ipsum dolor sit ame mollitia minus sunt debitiisicing elit. Laboriosam voluptates exercitationem soluta! Blanditiis, dolores dolor. Tempora inventore laboriosam non velit provident, neque delectus iure eligendi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate odio impedit rerum voluptatum quas recusandae alias atque corrupti quisquam itaque!</p>
+           <button>Read More</button></div>
+    <div className="card-three">   <h1>Contact Us</h1>
+          <p>Lorem ipsum dolor sit ame mollitia minus sunt debitiisicing elit. Laboriosam voluptates exercitationem soluta! Blanditiis, dolores dolor. Tempora inventore laboriosam non velit provident, neque delectus iure eligendi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate odio impedit rerum voluptatum quas recusandae alias atque corrupti quisquam itaque!</p>
+           <button>Read More</button></div>
+    </div>
+
+
+    <div className="footers">
+           <div className="footer-one">
+            <h3>My simple web design</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque placeat qui mollitia culpa ut ipsam tenetur autem impedit aperiam!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, animi. Quis quibusdam, debitis libero ad provident architecto temporibus reiciendis accusamus nemo, dolor dolore dicta, maiores culpa iusto earum asperiores! Consequuntur vero ad odit velit voluptas rerum quis, voluptatibus magnam quo!
+            </p>
+        </div>
+  
+
+     <div className="sub-footer">
+        <h3>My simple web design</h3>
+
+
+
+        <div className="logo-footer">
+               <h3>ErenxGamez</h3>
+                  <div className="img-for-sub-footer">
+        </div>
+     
+    
+        <img src="./images/dragon logo.png" alt="" />
+
+       </div>
+
+        
+        </div>
+        <div className="footer-two">
+        <h3>my simple project</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odio praesentium vero ut reprehenderit molestias repudiandae quae at optio quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repellendus ut, officia, sunt quibusdam ducimus vel, error maxime sed pariatur aut iusto accusamus officiis suscipit quae velit illum doloribus</p>
+     </div>
+    </div>
+   
+  
+
+    
+ 
+    
+
+    </div>
+
+    
+
+    
+    
+    <div className="bottom">
+
+        
+</div>
+    </>
+)
+
+}
+
+
+
+export default Navbartwo; 
