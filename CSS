@@ -1,0 +1,191 @@
+* {
+
+
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.top {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.bottom {
+    margin-top: 210px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.main {
+    /* border: solid black; */
+    width: 70%;
+    margin-left: 15%;
+    height: 1300px;
+
+}
+
+.img-for-sub-footer {
+    background-image: url('./images/dragon logo.png');
+    height: 74px;
+    width: 80px;
+    border-radius: 50%;
+    border: solid rgb(255, 254, 254);
+    background-repeat: no-repeat;
+
+
+}
+
+.cards {
+    display: flex;
+    padding: 0%;
+    justify-content: space-between;
+}
+
+.card-one,
+.card-two,
+.card-three {
+    padding: 20px;
+    margin-top: 10px;
+    width: 32%;
+    /* border: solid black; */
+    height: 430px;
+    color: white;
+}
+
+.card-one {
+    background-color: rgb(216, 29, 29);
+}
+
+.card-two {
+    background-color: rgb(255, 123, 0);
+}
+
+.card-three {
+    background-color: rgb(36, 36, 247);
+}
+
+.footers {
+    width: 100%;
+    /* border: solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.footer-one,
+.footer-two {
+    /* border: solid black; */
+    width: 65%;
+    padding: 10px;
+    height: 100px;
+    /* color: white; */
+}
+
+
+.sub-footer {
+    /* border: solid black; */
+    width: 34%;
+    height: 220px;
+    padding: 17px;
+    display: inline;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* position: fixed; */
+    background-color: white;
+    /* border: solid black; */
+    /* margin-left: 15%; */
+}
+
+.pic {
+    /* border: solid black; */
+    width: 100%;
+    height: 480px;
+    background-image: url('./images/college.jpeg');
+}
+
+.cards button {
+    padding: 7px;
+    border-radius: 5px;
+    border: white;
+    color: black;
+}
+
+
+
+
+.menu ul li {
+    display: inline-flex;
+    flex-direction: row;
+    text-decoration: none;
+
+
+}
+
+
+
+.menu ul li a:hover {
+    color: white;
+    background-color: black;
+
+
+}
+
+.menu ul li a {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.menu ul li {
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.logo {
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    /* border: solid black; */
+    width: 280px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.logo h3 {
+    margin-top: 12px;
+    margin-right: 0%;
+}
+
+.logo-footer {
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    /* border: solid black; */
+    width: 300px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.logo-footer h3 {
+    margin-top: 13px;
+}
